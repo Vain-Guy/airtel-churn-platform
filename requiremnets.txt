@@ -1,0 +1,24 @@
+# Airtel Kenya Churn Prediction API
+# Pin versions for reproducibility in production
+
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.0
+
+# ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+lightgbm==4.3.0
+xgboost==2.0.3
+joblib==1.4.0
+
+# Explainability
+shap==0.45.0
+
+# Feature store
+redis==5.0.4
+
+# Utils
+python-dotenv==1.0.1
